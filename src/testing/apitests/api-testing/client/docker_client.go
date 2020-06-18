@@ -94,4 +94,5 @@ func (dc *DockerClient) runCommandWithOutput(cmdName string, args []string) erro
 	}
 
 	return nil
+	
 }
