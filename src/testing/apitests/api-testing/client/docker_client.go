@@ -42,6 +42,7 @@ func (dc *DockerClient) Tag(source, target string) error {
 	return dc.runCommandWithOutput(cmdName, args)
 }
 
+
 // Push : push image
 func (dc *DockerClient) Push(image string) error {
 	if len(strings.TrimSpace(image)) == 0 {
